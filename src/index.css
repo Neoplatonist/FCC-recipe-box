@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0 10%;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  text-align: left;
+}
+
+#recipe-name {
+  margin-top: 50px;
+}
+
+.row {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.row .col {
+  margin: 0 20px 0 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.titles {
+  margin-bottom: -50px;
+  padding: 0;
+  text-align: center;
+}
+
+.recipe-add {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+.recipe-add * {
+  margin:  0 0 2.5em 0;
+}
+
+.recipe-add *:last-child {
+  margin: 0;
+}
+
+.recipe-add input[name="recipeName"] {
+  height: 30px;
+}
+
+.recipe-add button {
+  height: 40px;
+}
+
+.recipe-list {
+  border: 1px solid black;
+  overflow: auto;
+  height: 300px;
+}
+
+.recipe-list ul {
+  margin-top: 20px !important;
+  padding-right: 40px;
+  list-style: none;
+}
+
+.recipe-list ul li {
+  text-decoration: underline;
+  color: blue;
+}
+
+.recipe-list ul li:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.recipe-list ul li h4 {
+  float: left;
+  margin: 10px 0;
+}
+
+.recipe-list ul li p {
+  padding-left: 10px;
+  font-size: 0.8em;
+  margin: 10px 0;
+  float: left;
+}
+
+.recipe-list ul li p span:hover {
+  color: red;
+}
+
+.recipe-box {
+  border: 1px solid black;
+  height: 240px;
+  padding: 40px !important;
+}
